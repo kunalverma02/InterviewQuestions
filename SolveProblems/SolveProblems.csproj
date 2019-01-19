@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C977E63-E0B2-4316-BED7-BD73BE012150}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolveProblems</RootNamespace>
+    <AssemblyName>SolveProblems</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayAndString\ConsecutiveNumbersInArray.cs" />
+    <Compile Include="ArrayAndString\ExcelSheetColumnNumber.cs" />
+    <Compile Include="ArrayAndString\FindAllDuplicatesInAnArray.cs" />
+    <Compile Include="ArrayAndString\FindFirstRepeatedInteger.cs" />
+    <Compile Include="ArrayAndString\FirstUniqueCharacterinaString.cs" />
+    <Compile Include="ArrayAndString\IntersectionOfTwoArrays.cs" />
+    <Compile Include="ArrayAndString\MajorityElement.cs" />
+    <Compile Include="ArrayAndString\MaximumAbsoluteDifference.cs" />
+    <Compile Include="ArrayAndString\MaxSubArraySum.cs" />
+    <Compile Include="ArrayAndString\MoveZeros.cs" />
+    <Compile Include="ArrayAndString\PalindromePermutation.cs" />
+    <Compile Include="ArrayAndString\RepeatedAndMissingNumber.cs" />
+    <Compile Include="ArrayAndString\ReverseVowels.cs" />
+    <Compile Include="ArrayAndString\RomanToIntegers.cs" />
+    <Compile Include="ArrayAndString\SellAStock1.cs" />
+    <Compile Include="ArrayAndString\SingleNumberInArray.cs" />
+    <Compile Include="ArrayAndString\StringPermutation.cs" />
+    <Compile Include="ArrayAndString\SumofTwoIntegers.cs" />
+    <Compile Include="ArrayAndString\URLify.cs" />
+    <Compile Include="ArrayAndString\ValidParentheses.cs" />
+    <Compile Include="BinaryTree_Graph\BinarySearchTree.cs" />
+    <Compile Include="BinaryTree_Graph\BinaryTree.cs" />
+    <Compile Include="BinaryTree_Graph\BTNode.cs" />
+    <Compile Include="BinaryTree_Graph\Graph.cs" />
+    <Compile Include="BinaryTree_Graph\Node.cs" />
+    <Compile Include="ByteByByte50Questions\ByteByByteQuestions.cs" />
+    <Compile Include="DynamicProgramming\CountOfSubsetSum.cs" />
+    <Compile Include="DynamicProgramming\Knapsack.cs" />
+    <Compile Include="DynamicProgramming\MinimumSubsetSumDifference.cs" />
+    <Compile Include="DynamicProgramming\SubsetSum.cs" />
+    <Compile Include="LinkedList\LinkedList.cs" />
+    <Compile Include="LinkedList\MergeTwoLinkedList.cs" />
+    <Compile Include="LinkedList\Node.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DynamicProgramming\ClimbStairs.cs" />
+    <Compile Include="DynamicProgramming\HappyNumber.cs" />
+    <Compile Include="DynamicProgramming\RecursionProblems.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="StackAndQueue\QueueL.cs" />
+    <Compile Include="StackAndQueue\StackA.cs" />
+    <Compile Include="StackAndQueue\StackL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
