@@ -83,8 +83,7 @@ namespace SolveProblems.DynamicProgramming
                     //copy the true of previous one
                     if (dpCache[i - 1][s] == true)
                         dpCache[i][s] = true;
-
-                    if(nums[i] <= s)
+                    else if(nums[i] <= s)
                     {
                         dpCache[i][s] = dpCache[i - 1][s - nums[i]];
                     }

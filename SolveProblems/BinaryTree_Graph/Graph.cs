@@ -56,7 +56,7 @@ namespace SolveProblems.BinaryTree_Graph
                    if (node.isVisited == false)
                    {
                        node.isVisited = true;
-                       q
+                       
                        if (node == r2)
                            return true;
                    }

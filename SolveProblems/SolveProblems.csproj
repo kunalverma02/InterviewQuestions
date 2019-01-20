@@ -71,6 +71,8 @@
     <Compile Include="DynamicProgramming\Knapsack.cs" />
     <Compile Include="DynamicProgramming\MinimumSubsetSumDifference.cs" />
     <Compile Include="DynamicProgramming\SubsetSum.cs" />
+    <Compile Include="DynamicProgramming\UnBoundedKnapsack\RodCutting.cs" />
+    <Compile Include="DynamicProgramming\UnBoundedKnapsack\UnboundedKnapsack.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\MergeTwoLinkedList.cs" />
     <Compile Include="LinkedList\Node.cs" />
