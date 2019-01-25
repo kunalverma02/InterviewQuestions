@@ -70,8 +70,10 @@
     <Compile Include="DynamicProgramming\CountOfSubsetSum.cs" />
     <Compile Include="DynamicProgramming\Knapsack.cs" />
     <Compile Include="DynamicProgramming\MinimumSubsetSumDifference.cs" />
+    <Compile Include="DynamicProgramming\PalindromicSubsequence\LongestPalindromicSubsequence.cs" />
     <Compile Include="DynamicProgramming\SubsetSum.cs" />
     <Compile Include="DynamicProgramming\UnBoundedKnapsack\CoinChange.cs" />
+    <Compile Include="DynamicProgramming\UnBoundedKnapsack\MaximumRibbonCut.cs" />
     <Compile Include="DynamicProgramming\UnBoundedKnapsack\MinimumCoinChange.cs" />
     <Compile Include="DynamicProgramming\UnBoundedKnapsack\RodCutting.cs" />
     <Compile Include="DynamicProgramming\UnBoundedKnapsack\UnboundedKnapsack.cs" />

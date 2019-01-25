@@ -70,7 +70,7 @@ namespace SolveProblems.DynamicProgramming.UnBoundedKnapsack
                    }
                     if(ribbonLengths[i] <=t && dpCache[i][t-ribbonLengths[i]]!=int.MinValue)
                     {
-                        dpCache[i][t] = Math.Max(dpCache[i][t], dpCache[i][t - ribbonLengths[i]]);
+                        dpCache[i][t] = Math.Max(dpCache[i][t], dpCache[i][t - ribbonLengths[i]] +1);
                     }
                 }
             }
